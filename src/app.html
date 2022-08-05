@@ -1,0 +1,13 @@
+<template>
+<lightning-card title="Find FullName">
+	    <div class="slds-p-around_xx-large">
+				<div class="abc">
+      <lightning-input type="text" label="Enter Firstname"  onchange={firstnamehandler}></lightning-input>
+			</div>
+      <lightning-input type="text" label="Enter Lastname" onchange={lastnamehandler}></lightning-input>
+      <br/>
+      <lightning-button label="find full Name" variant="brand" onclick={buttonhandler}></lightning-button><br/>
+      <strong>Your Name:{fullname}</strong>
+			</div>
+   </lightning-card>
+</template>
